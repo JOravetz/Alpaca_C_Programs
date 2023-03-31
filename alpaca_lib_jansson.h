@@ -6,7 +6,6 @@
 #include <time.h>
 
 void parse_bar_data(const char *json_data);
-void print_local_time(const char *timestamp);
 void parse_quote_data(const char *json_data);
 void parse_trade_data(const char *received_data);
 void process_received_data(const char *data);
